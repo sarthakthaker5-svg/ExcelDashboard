@@ -1,386 +1,723 @@
-SALES & DATA ANALYTICS DASHBOARD
+Yes. Here is the **full README content directly in copy-paste format**, adapted to your Excel Dashboard file:
 
-1. PROJECT OVERVIEW
+````markdown
+# 📊 Sales & Data Analytics Dashboard – Excel Project
+````
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&pause=1000&color=36BCF7&center=true&vCenter=true&width=700&lines=Sales+%26+Data+Analytics+Dashboard;Excel+Data+Analysis+Project;Pivot+Tables+%7C+Formulas+%7C+Visualizations" alt="Typing SVG" />
+</p>
 
-The Sales & Data Analytics Dashboard is an Excel-based data analysis project designed to analyze and understand sales order data. The project uses Microsoft Excel to clean raw data, perform calculations, analyze sales information using Pivot Tables, create visualizations, and develop an interactive dashboard.
+<p align="center">
+  <img src="https://img.shields.io/badge/Microsoft-Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data-Analysis-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Pivot-Tables-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Visualization-green?style=for-the-badge" />
+</p>
 
-The workbook contains 300 sales records with information such as Order ID, Date, Customer ID, Product, Quantity, Unit Price, Shipping Address, Payment Method, Order Status, Tracking Number, Items in Cart, Coupon Code, Referral Source, and Total Price.
+---
 
-The main purpose of this project is to convert raw sales data into meaningful information that can help understand sales performance, customer orders, product performance, payment methods, order statuses, and referral sources.
+## 📌 Project Overview
 
-2. PROJECT OBJECTIVES
+The **Sales & Data Analytics Dashboard** is an Excel-based data analysis project designed to analyze sales orders, customer information, products, order status, payment methods, referral sources, and revenue.
+
+The project demonstrates the practical use of **Microsoft Excel** for data cleaning, formula-based analysis, Pivot Tables, charts, and dashboard creation.
+
+The workbook contains multiple sheets that organize the complete workflow from raw data to final visualization and documentation.
+
+---
+
+## 🎯 Objectives
 
 The main objectives of this project are:
 
-• To organize and analyze sales order data using Microsoft Excel.
-• To clean and prepare the raw dataset for analysis.
-• To calculate important sales-related values.
-• To analyze product-wise sales and quantities.
-• To analyze order status and revenue.
-• To analyze payment methods and referral sources.
-• To use Excel formulas for data lookup and classification.
-• To create Pivot Tables for summarized analysis.
-• To create charts and visualizations for better understanding.
-• To develop an interactive sales dashboard.
-• To present business information in a simple and understandable format.
+- Analyze sales and order data using Microsoft Excel.
+- Clean and organize the raw dataset.
+- Calculate and analyze total sales/revenue.
+- Use Excel formulas for lookup and logical operations.
+- Create Pivot Tables for business analysis.
+- Analyze product-wise sales performance.
+- Analyze order status distribution.
+- Analyze revenue by payment method.
+- Analyze revenue by referral source.
+- Create charts and visualizations.
+- Build a centralized Excel Dashboard.
+- Understand practical applications of Excel Data Analytics.
 
-3. TECHNOLOGIES AND TOOLS USED
+---
 
-Microsoft Excel
+## 🚀 Project Highlights
 
-The complete project is developed using Microsoft Excel.
+- 📊 300 sales orders analyzed
+- 💰 Total Revenue: **306,976.92**
+- 📦 Total Quantity Sold: **870**
+- 🧹 Cleaned and structured sales dataset
+- 🔎 VLOOKUP and INDEX-MATCH formulas
+- 🧠 IF, AND and OR logical formulas
+- 📈 Pivot Table analysis
+- 📊 Bar, Pie and Line Charts
+- 📋 Organized workbook structure
+- 📑 Documentation sheet included
+- 🎯 Sales and order performance analysis
 
-Excel Features Used:
+---
 
-• Excel Tables
-• Data Cleaning
-• Excel Formulas
-• VLOOKUP
-• INDEX
-• MATCH
-• IF
-• AND
-• OR
-• Pivot Tables
-• Charts
-• Data Visualization
-• Dashboard
-• Slicers
-• Timeline Controls
-• Conditional Analysis
-• Data Summarization
+## 🛠️ Technologies Used
 
-4. DATASET INFORMATION
+- **Microsoft Excel**
+- Excel Tables
+- Excel Formulas
+- VLOOKUP
+- INDEX + MATCH
+- IF
+- AND
+- OR
+- Pivot Tables
+- Charts
+- Data Cleaning
+- Data Visualization
+- Dashboard Design
 
-The dataset contains 300 sales order records.
+---
 
-The main fields available in the dataset are:
+## 📂 Project Structure
 
-OrderID – Unique identification number for each order.
+```text
+Sales & Data Analytics Dashboard
+│
+├── Raw Data
+├── Cleaned Data
+├── Pivot Table
+├── Formulas
+├── Visualization
+├── Dashboard
+└── Documentation
+````
 
-Date – Date on which the order was placed.
+---
 
-CustomerID – Unique identification number of the customer.
+## 📘 Workbook Information
 
-Product – Product purchased by the customer.
+| Information    | Details                           |
+| -------------- | --------------------------------- |
+| Project Type   | Sales & Data Analytics            |
+| Tool Used      | Microsoft Excel                   |
+| Total Orders   | 300                               |
+| Total Quantity | 870                               |
+| Total Revenue  | 306,976.92                        |
+| Main Analysis  | Sales, Orders, Products & Revenue |
+| Visualization  | Bar Chart, Pie Chart, Line Chart  |
+| Dashboard      | Excel Dashboard                   |
+| Dataset        | Sales Order Dataset               |
 
-Quantity – Number of units purchased.
+---
 
-UnitPrice – Price of one unit of the product.
+# 📑 Worksheets
 
-ShippingAddress – Shipping location of the order.
+## 1️⃣ Raw Data
 
-PaymentMethod – Payment method used by the customer.
+The **Raw Data** sheet contains the original sales order dataset.
 
-OrderStatus – Current status of the order.
+It includes information such as:
 
-TrackingNumber – Tracking information associated with the order.
+* Order ID
+* Date
+* Customer ID
+* Product
+* Quantity
+* Unit Price
+* Shipping Address
+* Payment Method
+* Order Status
+* Tracking Number
+* Items in Cart
+* Coupon Code
+* Referral Source
+* Total Price
 
-ItemsInCart – Number of items present in the customer's cart.
+The sheet contains **300 sales orders**.
 
-CouponCode – Coupon or promotional code used by the customer.
+---
 
-ReferralSource – Source through which the customer reached the platform.
+## 2️⃣ Cleaned Data
 
-TotalPrice – Total price of the order.
+The **Cleaned Data** sheet contains the organized and structured version of the sales dataset.
 
-5. WORKBOOK STRUCTURE
+The data is stored in an Excel Table named:
 
-The workbook contains seven main worksheets.
+```text
+SalesData
+```
 
-5.1 RAW DATA
+This sheet is used as the main source for formulas, analysis, and visualizations.
 
-The Raw Data sheet contains the original sales dataset consisting of 300 records.
+---
 
-This sheet is used as the starting point for the project. It contains the original order information before the data preparation and analysis process.
+## 3️⃣ Pivot Table
 
-5.2 CLEANED DATA
-
-The Cleaned Data sheet contains the prepared sales dataset.
-
-The data is organized into an Excel Table named SalesData, making it easier to use formulas, Pivot Tables, and other Excel analysis features.
-
-This sheet is used as the main source for analysis.
-
-5.3 PIVOT TABLE
-
-The Pivot Table sheet contains summarized information generated from the sales dataset.
+The **Pivot Table** sheet provides summarized business information.
 
 The analysis includes:
 
-• Product-wise Total Price
-• Product-wise Quantity
-• Product-wise Order Count
-• Order Status-wise Order Count
-• Order Status-wise Total Price
-• Payment Method and Referral Source analysis
-• Overall sales summary
+### Product Analysis
 
-The Pivot Tables help convert the detailed 300-row dataset into meaningful summaries.
+* Product-wise Total Sales
+* Product-wise Quantity
+* Product-wise Order Count
 
-5.4 FORMULAS
+### Order Status Analysis
 
-The Formulas sheet demonstrates different Excel functions used for analysis.
+* Number of orders by status
+* Total revenue by order status
 
-The main calculations include:
+### Payment Method Analysis
 
-• Unit Price Lookup
-• Order Status by Customer ID
-• Discount Eligibility
-• Order Priority
+* Revenue generated through different payment methods
 
-These formulas demonstrate how Excel functions can be used to retrieve information and classify sales orders.
+### Referral Source Analysis
 
-5.5 VISUALIZATION
+* Revenue generated through different referral sources
 
-The Visualization sheet contains individual charts and formatted visual representations of the sales data.
+The overall analyzed revenue is:
 
-Charts are used to make the analysis easier to understand and to identify differences between products, order statuses, and other sales categories.
+**306,976.92**
 
-5.6 DASHBOARD
+---
 
-The Dashboard sheet provides a visual summary of the sales analysis.
+## 4️⃣ Formulas
 
-It contains charts, KPI-style summaries, slicers, and timeline controls that allow users to interact with the data and understand the overall sales performance.
+The **Formulas** sheet demonstrates the use of Excel formulas for different business requirements.
 
-The dashboard provides a simple way to view important information without manually analyzing the complete dataset.
+### 🔎 VLOOKUP
 
-5.7 DOCUMENTATION
-
-The Documentation sheet provides information about the workbook structure and the purpose of the different sheets used in the project.
-
-It helps users understand how the Excel workbook is organized.
-
-6. DATA CLEANING
-
-The raw sales data was prepared and organized before performing analysis.
-
-The cleaned dataset was converted into an Excel Table named SalesData. Using an Excel Table makes it easier to reference the data in formulas and Pivot Tables.
-
-The cleaned data contains consistent fields for orders, customers, products, quantities, prices, payment methods, order statuses, coupon codes, and referral sources.
-
-7. DATA ANALYSIS
-
-The project performs different types of sales analysis.
-
-Product Analysis:
-
-Product-wise quantity and total revenue are analyzed to understand which products contribute more to sales.
-
-Order Status Analysis:
-
-Orders are categorized into different statuses such as Cancelled, Delivered, Pending, Returned, and Shipped. The number of orders and total revenue associated with each status are analyzed.
-
-Payment Method Analysis:
-
-Different payment methods such as Cash, Credit Card, Debit Card, Gift Card, and Online are analyzed to understand customer payment preferences.
-
-Referral Source Analysis:
-
-Referral sources such as Email, Facebook, Google, Instagram, and Referral are analyzed to understand how customers reach the sales platform.
-
-Overall Sales Analysis:
-
-The Pivot Table provides an overall summary of 300 orders with a total order value of 306,976.92.
-
-8. FORMULAS USED
-
-VLOOKUP
-
-VLOOKUP is used to find the Unit Price of a specific order.
+Used to find the Unit Price for a specific Order ID.
 
 Example:
 
+```excel
 =VLOOKUP("ORD200000",SalesData[],6,FALSE)
+```
 
-INDEX AND MATCH
+### 🔎 INDEX + MATCH
 
-INDEX and MATCH are used together to find the Order Status associated with a particular Customer ID.
+Used to retrieve the Order Status using a Customer ID.
 
 Example:
 
+```excel
 =INDEX('Cleaned Data'!I:I,MATCH("C72649",'Cleaned Data'!C:C,0))
+```
 
-IF FUNCTION
+### 🏷️ Discount Eligibility
 
-The IF function is used to determine whether a discount or coupon has been applied.
+Used to identify whether a discount was applied.
 
-Example:
-
+```excel
 =IF('Cleaned Data'!L2<>"None","Discount Applied","No Discount")
+```
 
-AND, OR AND IF
+### ⚡ Order Priority
 
-These functions are combined to classify orders according to their value and status.
+Used to classify orders based on Total Price and Order Status.
 
-Example:
-
+```excel
 =IF(AND('Cleaned Data'!N2>2000,'Cleaned Data'!I2="Shipped"),"High Value-In Transit",IF(OR('Cleaned Data'!I2="Cancelled",'Cleaned Data'!I2="Returned"),"Revenue Risk","Standard Order"))
+```
 
-9. PIVOT TABLE ANALYSIS
+---
 
-Pivot Tables are used to summarize large amounts of sales data quickly.
+## 5️⃣ Visualization
 
-The project uses Pivot Tables to analyze:
+The **Visualization** sheet contains graphical representations of the sales data.
 
-• Product performance
-• Quantity sold
-• Total sales value
-• Number of orders
-• Order status
-• Payment methods
-• Referral sources
+The project includes:
 
-Pivot Tables make it easier to identify patterns and compare different categories.
+### 📊 Bar Chart
 
-10. DATA VISUALIZATION
+Shows **Total Price by Product**.
 
-Charts are created to present the analyzed data visually.
+This helps compare the sales/revenue contribution of different products.
 
-The project includes visualizations that help users understand:
+### 🥧 Pie Chart
 
-• Product performance
-• Sales distribution
-• Order status
-• Revenue performance
-• Customer and order-related information
+Shows order-related distribution based on the Pivot Table analysis.
 
-Charts make the information easier to understand than viewing raw numbers alone.
+### 📈 Line Chart
 
-11. INTERACTIVE DASHBOARD
+Shows **Total Price over Date**.
 
-The Dashboard is the main visual output of the project.
+This helps identify changes and trends in revenue over time.
 
-It combines important sales information into a single interface.
+---
 
-The dashboard includes:
+## 6️⃣ Dashboard
 
-• KPI summaries
-• Sales charts
-• Product analysis
-• Order analysis
-• Slicers
-• Timeline controls
-• Visual summaries
+The **Dashboard** sheet provides a centralized view of the major visualizations.
 
-Slicers and Timeline controls allow users to filter the dashboard and explore the data interactively.
+It contains the main charts used for presenting the sales analysis.
 
-12. KEY CALCULATIONS
+The dashboard helps users quickly understand:
 
-Total Price is calculated based on the quantity and unit price of an order.
+* Product performance
+* Sales trends
+* Order information
+* Revenue patterns
 
-Total Price = Quantity × Unit Price
+---
 
-For example, if an order contains 5 units and the unit price is 570.62:
+## 7️⃣ Documentation
 
-Total Price = 5 × 570.62
+The **Documentation** sheet explains the purpose and structure of each worksheet.
 
-Total Price = 2853.10
+It provides a simple overview of:
 
-This calculation is used to determine the value of individual orders and is later summarized using Pivot Tables.
+* Sheet names
+* Sheet purpose
+* Data organization
+* Analysis workflow
+* Workbook structure
 
-13. EXCEL CONCEPTS COVERED
+---
 
-The project demonstrates practical knowledge of:
+# 🧮 Excel Functions Covered
 
-• Data Cleaning
-• Excel Tables
-• Data Organization
-• VLOOKUP
-• INDEX and MATCH
-• IF Function
-• AND Function
-• OR Function
-• Conditional Classification
-• Pivot Tables
-• Data Summarization
-• Charts
-• Data Visualization
-• Dashboard Creation
-• Slicers
-• Timeline Controls
-• Sales Analysis
+The project demonstrates the following Excel functions:
 
-14. KEY FINDINGS
+### Lookup Functions
 
-The analysis provides a summarized view of the sales dataset.
+* VLOOKUP
+* INDEX
+* MATCH
 
-The workbook contains 300 orders with an overall Total Price of 306,976.92.
+### Logical Functions
 
-The analysis also shows differences in product performance, order status, payment methods, and referral sources.
+* IF
+* AND
+* OR
 
-The Pivot Tables and dashboard make it easier to compare these categories and identify important patterns in the sales data.
+### Calculation
 
-15. LEARNING OUTCOMES
+* Multiplication
+* Aggregation
+* Total calculations
 
-Through this project, the following skills were developed:
+---
 
-• Understanding of Excel-based data analysis.
-• Understanding of data cleaning and preparation.
-• Practical use of Excel formulas.
-• Understanding of lookup functions.
-• Experience with Pivot Tables.
-• Experience creating charts and visualizations.
-• Understanding of dashboard design.
-• Ability to summarize large datasets.
-• Ability to present data in a meaningful way.
-• Improved analytical and problem-solving skills.
+# 📊 Formula Categories
 
-16. SKILLS DEMONSTRATED
+## 🔍 Lookup & Reference
 
-The project demonstrates the following skills:
+```text
+VLOOKUP
+INDEX
+MATCH
+```
 
-Microsoft Excel
-Data Analysis
+Used to retrieve information from the sales dataset.
+
+---
+
+## 🧠 Logical Functions
+
+```text
+IF
+AND
+OR
+```
+
+Used to classify orders and identify specific business conditions.
+
+---
+
+## 💰 Sales Calculation
+
+Total Price is calculated based on:
+
+```text
+Quantity × Unit Price
+```
+
+For example:
+
+```text
+5 × 570.62 = 2853.10
+```
+
+---
+
+# 📈 Sales Analysis
+
+The project analyzes sales performance using the following areas:
+
+* Product-wise sales
+* Quantity sold
+* Number of orders
+* Total revenue
+* Order status
+* Payment methods
+* Referral sources
+
+---
+
+# 📦 Product Analysis
+
+The dataset contains the following products:
+
+| Product | Number of Orders |
+| ------- | ---------------: |
+| Printer |               52 |
+| Chair   |               46 |
+| Monitor |               43 |
+| Tablet  |               43 |
+| Desk    |               41 |
+| Phone   |               40 |
+| Laptop  |               35 |
+
+This analysis helps identify the most frequently ordered products.
+
+---
+
+# 🚚 Order Status Analysis
+
+The dataset contains five major order statuses:
+
+| Order Status | Number of Orders |
+| ------------ | ---------------: |
+| Cancelled    |               73 |
+| Shipped      |               59 |
+| Delivered    |               58 |
+| Pending      |               56 |
+| Returned     |               54 |
+
+This helps understand the overall order fulfillment situation.
+
+---
+
+# 💳 Payment Method Analysis
+
+The project analyzes sales according to payment method.
+
+| Payment Method | Number of Orders |
+| -------------- | ---------------: |
+| Online         |               73 |
+| Credit Card    |               58 |
+| Gift Card      |               57 |
+| Cash           |               57 |
+| Debit Card     |               55 |
+
+This provides an overview of customer payment preferences.
+
+---
+
+# 📢 Referral Source Analysis
+
+The project also analyzes how customers reached the business.
+
+| Referral Source | Number of Orders |
+| --------------- | ---------------: |
+| Google          |               68 |
+| Email           |               64 |
+| Instagram       |               57 |
+| Referral        |               56 |
+| Facebook        |               55 |
+
+This helps identify the major customer acquisition sources.
+
+---
+
+# 🎟️ Coupon Analysis
+
+The dataset includes multiple coupon codes such as:
+
+* SAVE10
+* FREESHIP
+* WINTER15
+* None / No Coupon
+
+Coupon information is used in the formula analysis to identify whether a discount was applied.
+
+---
+
+# 📊 Pivot Table Analysis
+
+Pivot Tables are used to summarize large amounts of sales data.
+
+The project uses Pivot Tables for:
+
+* Product performance
+* Quantity analysis
+* Order count
+* Order status
+* Payment method
+* Referral source
+* Revenue analysis
+
+Pivot Tables make it easier to identify important business patterns without manually calculating every value.
+
+---
+
+# 📉 Data Visualization
+
+The project uses different chart types to make the analysis easier to understand.
+
+### Bar Chart
+
+Used for comparing product-wise Total Price.
+
+### Pie Chart
+
+Used for showing proportional order/revenue information.
+
+### Line Chart
+
+Used for showing Total Price trends across dates.
+
+These visualizations make the final analysis more understandable and presentation-friendly.
+
+---
+
+# 📤 Project Output
+
+The final workbook contains:
+
+```text
+Raw Data
+       ↓
+Cleaned Data
+       ↓
+Formulas
+       ↓
+Pivot Table
+       ↓
+Visualization
+       ↓
+Dashboard
+       ↓
+Documentation
+```
+
+The project provides a complete Excel-based workflow from raw sales data to business analysis and visualization.
+
+---
+
+# 📚 Learning Outcomes
+
+Through this project, the following concepts were practiced:
+
+* Excel Data Cleaning
+* Excel Tables
+* Lookup Functions
+* Logical Functions
+* Data Analysis
+* Pivot Tables
+* Data Visualization
+* Dashboard Creation
+* Business Data Interpretation
+* Sales Performance Analysis
+
+---
+
+# 💡 Skills Demonstrated
+
+### Technical Skills
+
+* Microsoft Excel
+* Excel Formulas
+* VLOOKUP
+* INDEX-MATCH
+* IF
+* AND
+* OR
+* Pivot Tables
+* Excel Charts
+* Data Cleaning
+* Dashboard Creation
+
+### Analytical Skills
+
+* Sales Analysis
+* Revenue Analysis
+* Product Analysis
+* Order Analysis
+* Customer Data Analysis
+* Payment Analysis
+* Referral Source Analysis
+* Business Data Interpretation
+
+---
+
+# 🏆 Project Achievements
+
+* Successfully analyzed **300 sales orders**
+* Calculated total revenue of **306,976.92**
+* Analyzed **870 total quantities**
+* Created a structured cleaned dataset
+* Implemented multiple Excel formulas
+* Created Pivot Table summaries
+* Created multiple data visualizations
+* Built a centralized Dashboard
+* Documented the complete workbook structure
+
+---
+
+# 📋 Dataset Fields
+
+The project uses the following fields:
+
+```text
+OrderID
+Date
+CustomerID
+Product
+Quantity
+UnitPrice
+ShippingAddress
+PaymentMethod
+OrderStatus
+TrackingNumber
+ItemsInCart
+CouponCode
+ReferralSource
+TotalPrice
+```
+
+---
+
+# 📊 Key Dataset Statistics
+
+| Metric                     |      Value |
+| -------------------------- | ---------: |
+| Total Orders               |        300 |
+| Total Quantity             |        870 |
+| Total Revenue              | 306,976.92 |
+| Number of Products         |          7 |
+| Number of Order Statuses   |          5 |
+| Number of Payment Methods  |          5 |
+| Number of Referral Sources |          5 |
+
+---
+
+# 🔎 Business Analysis Areas
+
+The project focuses on the following business questions:
+
+### Product Performance
+
+Which products generate more sales and orders?
+
+### Order Performance
+
+How many orders are Cancelled, Shipped, Delivered, Pending, or Returned?
+
+### Payment Analysis
+
+Which payment methods are used most frequently?
+
+### Marketing Analysis
+
+Which referral sources bring the most customers?
+
+### Revenue Analysis
+
+What is the overall revenue generated by the dataset?
+
+### Order Classification
+
+Which orders are high-value, revenue-risk, or standard orders?
+
+---
+
+# 🔄 Project Workflow
+
+The complete project follows this workflow:
+
+### Step 1 – Raw Data
+
+Collect and organize the original sales order data.
+
+### Step 2 – Data Cleaning
+
+Prepare the dataset in a structured Excel Table.
+
+### Step 3 – Formula Analysis
+
+Use Excel formulas to perform lookups and classify orders.
+
+### Step 4 – Pivot Table
+
+Summarize important sales and order information.
+
+### Step 5 – Visualization
+
+Create charts from the analyzed data.
+
+### Step 6 – Dashboard
+
+Present the important visualizations in one place.
+
+### Step 7 – Documentation
+
+Document the workbook structure and purpose of each sheet.
+
+---
+
+# 📌 Excel Concepts Practiced
+
+```text
+✔ Excel Tables
+✔ Data Cleaning
+✔ Lookup Functions
+✔ Logical Functions
+✔ Conditional Analysis
+✔ Pivot Tables
+✔ Charts
+✔ Dashboard
+✔ Data Visualization
+✔ Business Analysis
+```
+
+---
+
+# 📝 How to Use
+
+1. Open the Excel workbook.
+2. Start from the **Raw Data** sheet.
+3. Review the original sales dataset.
+4. Open **Cleaned Data** to view the structured dataset.
+5. Check the **Formulas** sheet for formula-based analysis.
+6. Open **Pivot Table** to view summarized results.
+7. Open **Visualization** to view charts.
+8. Open **Dashboard** to view the final presentation.
+9. Open **Documentation** to understand the workbook structure.
+
+---
+
+# 📌 Project Summary
+
+The **Sales & Data Analytics Dashboard** is a practical Microsoft Excel project that demonstrates how raw sales data can be transformed into meaningful business insights.
+
+The project combines:
+
+```text
 Data Cleaning
+     +
+Excel Formulas
+     +
+Pivot Tables
+     +
 Data Visualization
-Pivot Table Analysis
-Excel Formula Development
-Dashboard Development
-Business Data Interpretation
-Reporting
-Analytical Thinking
+     +
+Dashboard
+     =
+Sales & Data Analytics Solution
+```
 
-17. PROJECT OUTPUT
+This project demonstrates practical knowledge of Excel Data Analysis and provides a structured approach for understanding sales performance, revenue, products, orders, payment methods, and referral sources.
 
-The final workbook provides a complete sales analysis solution starting from raw data and ending with an interactive dashboard.
+---
 
-The workflow of the project is:
+# 👨‍💻 Author
 
-Raw Data → Cleaned Data → Formulas → Pivot Table Analysis → Visualization → Dashboard
+**Sarth Thakar**
 
-This structure demonstrates how raw business data can be transformed into useful analytical information using Microsoft Excel.
-
-18. HOW TO USE THE WORKBOOK
-
-Step 1: Open the Excel workbook.
-
-Step 2: Review the Raw Data sheet to understand the original dataset.
-
-Step 3: Open the Cleaned Data sheet to view the prepared dataset.
-
-Step 4: Review the Formulas sheet to understand the calculations and lookup functions.
-
-Step 5: Open the Pivot Table sheet to view summarized analysis.
-
-Step 6: Open the Visualization sheet to view individual charts.
-
-Step 7: Open the Dashboard sheet to view the final interactive dashboard.
-
-Step 8: Use the available slicers and timeline controls to filter and explore the dashboard.
-
-19. PROJECT SUMMARY
-
-The Sales & Data Analytics Dashboard project demonstrates how Microsoft Excel can be used as a complete data analysis and reporting tool.
-
-Starting with 300 raw sales records, the project organizes and prepares the data, performs formula-based calculations, creates summarized Pivot Table reports, develops visualizations, and combines important information into an interactive dashboard.
-
-The project provides practical experience in Excel data analysis, visualization, reporting, and dashboard development.
-
-20. AUTHOR
-
-Sarth Thakar
-
-Project: Sales & Data Analytics Dashboard
-
-Tool Used: Microsoft Excel
+```
+```
