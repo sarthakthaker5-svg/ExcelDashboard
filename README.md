@@ -715,6 +715,3 @@ This project demonstrates practical knowledge of Excel Data Analysis and provide
 # 👨‍💻 Author
 
 **Sarth Thakar**
-
-```
-```
